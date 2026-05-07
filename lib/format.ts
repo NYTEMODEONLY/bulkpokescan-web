@@ -55,7 +55,7 @@ export function blockSlice(
 
 export function exportMarkdown(codes: string[], fmt: FormatKind): string {
   const n = codes.length;
-  const header = `# Pokémon TCG Codes\n\n_Exported from CodeDex Pro · ${n} codes_\n\n`;
+  const header = `# Pokémon TCG Codes\n\n_Exported from BulkPokeScan · ${n} codes_\n\n`;
   switch (fmt) {
     case FORMAT_NUMBERED:
       return (

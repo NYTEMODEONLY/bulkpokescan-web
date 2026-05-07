@@ -33,7 +33,7 @@ export function AboutModal() {
   const { closeModal } = useApp();
 
   return (
-    <Modal ariaLabel="About CodeDex Pro">
+    <Modal ariaLabel="About BulkPokeScan">
       <ModalHeader title="About" />
 
       <ModalBody>
@@ -44,10 +44,10 @@ export function AboutModal() {
             <div className="flex flex-col leading-tight">
               <div className="flex items-baseline">
                 <span className="font-display text-[22px] font-bold text-text">
-                  CodeDex
+                  Bulk
                 </span>
-                <span className="font-display text-[22px] font-bold text-yellow ml-1">
-                  Pro
+                <span className="font-display text-[22px] font-bold text-yellow">
+                  PokeScan
                 </span>
               </div>
               <span className="font-mono text-[11px] text-text-muted tracking-[0.10em] mt-1">
@@ -86,7 +86,7 @@ export function AboutModal() {
           <div className="bg-surface-2 border border-border rounded-xl px-4 py-3.5 flex gap-3 items-start mt-4">
             <MoonIcon className="text-yellow shrink-0 mt-0.5" />
             <p className="text-text-2 text-[12px] leading-relaxed">
-              CodeDex Pro is a{" "}
+              BulkPokeScan is a{" "}
               <a
                 href="https://nytemode.com"
                 target="_blank"

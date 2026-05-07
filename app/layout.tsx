@@ -24,7 +24,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CodeDex Pro — Pokémon TCG Code Scanner",
+  title: "BulkPokeScan — Pokémon TCG Code Scanner",
   description:
     "Scan, organize, and export Pokémon TCG redemption codes. Works on phone or desktop, codes never leave your device. A nytemode project.",
   authors: [{ name: "nytemode", url: "https://nytemode.com" }],
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     "nytemode",
   ],
   openGraph: {
-    title: "CodeDex Pro",
+    title: "BulkPokeScan",
     description: "The professional Pokémon TCG code scanner — in your browser.",
-    siteName: "CodeDex Pro",
+    siteName: "BulkPokeScan",
     type: "website",
   },
 };

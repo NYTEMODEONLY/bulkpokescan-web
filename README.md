@@ -1,4 +1,4 @@
-# CodeDex Pro · Web
+# BulkPokeScan · Web
 
 <p align="center">
   <strong>The Professional Pokémon TCG Code Scanner — in your browser.</strong><br>
@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://codedex-web.vercel.app"><strong>🌐 codedex-web.vercel.app</strong></a>
+  <a href="https://bulkpokescan.vercel.app"><strong>🌐 bulkpokescan.vercel.app</strong></a>
    ·
-  <a href="https://github.com/NYTEMODEONLY/codedexpro"><strong>💻 Desktop version</strong></a>
+  <a href="https://github.com/NYTEMODEONLY/bulkpokescan"><strong>💻 Desktop version</strong></a>
    ·
   <a href="https://nytemode.com"><strong>nytemode.com</strong></a>
 </p>
@@ -17,9 +17,9 @@
 
 ## What is this?
 
-The web port of **CodeDex Pro**, the Pokémon TCG redemption-code scanner. It's a single-page Next.js app that uses your phone or laptop's camera + a client-side QR detector to scan, organize, and export hundreds of TCG codes — without sending anything to a server.
+The web port of **BulkPokeScan**, the Pokémon TCG redemption-code scanner. It's a single-page Next.js app that uses your phone or laptop's camera + a client-side QR detector to scan, organize, and export hundreds of TCG codes — without sending anything to a server.
 
-Use the [native desktop app](https://github.com/NYTEMODEONLY/codedexpro) for marathon scanning sessions on a fixed webcam. Use this web version when you want a shareable link and zero install.
+Use the [native desktop app](https://github.com/NYTEMODEONLY/bulkpokescan) for marathon scanning sessions on a fixed webcam. Use this web version when you want a shareable link and zero install.
 
 ## Features
 
@@ -47,8 +47,8 @@ Use the [native desktop app](https://github.com/NYTEMODEONLY/codedexpro) for mar
 ## Run locally
 
 ```bash
-git clone https://github.com/NYTEMODEONLY/codedex-web.git
-cd codedex-web
+git clone https://github.com/NYTEMODEONLY/bulkpokescan-web.git
+cd bulkpokescan-web
 npm install
 npm run dev
 ```
@@ -134,7 +134,7 @@ Full product spec lives in [`PRD.md`](PRD.md) — vision, functional + non-funct
 
 ## License
 
-MIT — same as the [desktop version](https://github.com/NYTEMODEONLY/codedexpro).
+MIT — same as the [desktop version](https://github.com/NYTEMODEONLY/bulkpokescan).
 
 ## Acknowledgments
 

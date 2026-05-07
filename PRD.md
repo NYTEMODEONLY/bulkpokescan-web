@@ -1,8 +1,8 @@
-# CodeDex Pro Web — Product Requirements Document
+# BulkPokeScan Web — Product Requirements Document
 
 **Version:** 1.0  ·  **Date:** 2026-04-26  ·  **Owner:** nytemode
 
-A web-port of CodeDex Pro, the Pokémon TCG redemption-code scanner.
+A web-port of BulkPokeScan, the Pokémon TCG redemption-code scanner.
 Single page, fully responsive, no scrolling, deployed on Vercel under
 the nytemode account.
 
@@ -43,7 +43,7 @@ accents, JetBrains Mono codes — but adapts the layout for any viewport.
    Android Chrome, desktop Chrome/Safari/Firefox/Edge.
 4. **Privacy preserved** — all QR detection happens client-side. No code
    is ever sent to a server. No analytics that can fingerprint codes.
-5. **Shareable URL** — `codedex.nytemode.com` (or Vercel preview URL)
+5. **Shareable URL** — `bulkpokescan.nytemode.com` (or Vercel preview URL)
    works as a copy-pasteable link.
 
 ### Non-goals (v1)

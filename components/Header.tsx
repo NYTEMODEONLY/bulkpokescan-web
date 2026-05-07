@@ -80,10 +80,10 @@ export function Header() {
         <div className="flex flex-col leading-none">
           <div className="flex items-baseline">
             <span className="font-display text-[22px] font-bold text-text">
-              CodeDex
+              Bulk
             </span>
-            <span className="font-display text-[22px] font-medium text-yellow ml-1">
-              Pro
+            <span className="font-display text-[22px] font-medium text-yellow">
+              PokeScan
             </span>
           </div>
           <span className="hidden lg:inline-block font-mono text-[9px] tracking-[0.22em] text-text-muted uppercase mt-1">
@@ -107,7 +107,7 @@ export function Header() {
         }}
         title={
           globalReady
-            ? `${fullNumber.format(globalTotal)} codes scanned globally with CodeDex Pro`
+            ? `${fullNumber.format(globalTotal)} codes scanned globally with BulkPokeScan`
             : "Loading global scan count…"
         }
         className="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-scan/10 text-scan border border-scan/35 font-mono text-[11px] font-bold tracking-[0.08em] uppercase no-underline hover:bg-scan/15 hover:border-scan/55 transition-colors"
