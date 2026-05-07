@@ -130,7 +130,7 @@ Full product spec lives in [`PRD.md`](PRD.md) — vision, functional + non-funct
 
 ## Privacy
 
-100% client-side. The page is a static bundle; the only network request after initial load is for Google Fonts (cached after first paint). Camera frames are decoded in-browser by `qr-scanner`. Codes are stored in `localStorage` under the `codedex.session.v1` key. Nothing ever leaves your device.
+100% client-side. The page is a static bundle; the only network request after initial load is for Google Fonts (cached after first paint). Camera frames are decoded in-browser by `qr-scanner`. Codes are stored in `localStorage` under the `bulkpokescan.session.v1` key. Nothing ever leaves your device.
 
 ## License
 

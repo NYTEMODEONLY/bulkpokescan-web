@@ -2,8 +2,8 @@
 
 import type { Code, Settings } from "@/types";
 
-const SESSION_KEY = "codedex.session.v1";
-const SETTINGS_KEY = "codedex.settings.v1";
+const SESSION_KEY = "bulkpokescan.session.v1";
+const SETTINGS_KEY = "bulkpokescan.settings.v1";
 
 export const DEFAULT_SETTINGS: Settings = {
   cameraId: null,

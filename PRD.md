@@ -145,8 +145,8 @@ accents, JetBrains Mono codes — but adapts the layout for any viewport.
 ### 4.8 · Persistence
 
 - **FR-PER-1** — Codes + sources persist to `localStorage` under
-  the key `codedex.session.v1`.
-- **FR-PER-2** — Settings persist to `codedex.settings.v1`.
+  the key `bulkpokescan.session.v1`.
+- **FR-PER-2** — Settings persist to `bulkpokescan.settings.v1`.
 - **FR-PER-3** — `Clear` empties the list and shows a toast with
   `Cleared all codes — ⌘Z to undo`.
 - **FR-PER-4** — `⌘Z` / `Ctrl+Z` undoes the last destructive action

@@ -5,7 +5,7 @@
 import { Redis } from "@upstash/redis";
 import { Ratelimit } from "@upstash/ratelimit";
 
-export const TALLY_KEY = "codedex:total";
+export const TALLY_KEY = "bulkpokescan:total";
 
 export const redis = Redis.fromEnv();
 
@@ -16,7 +16,7 @@ export const tallyLimiter = new Ratelimit({
   redis,
   limiter: Ratelimit.slidingWindow(60, "1 m"),
   analytics: false,
-  prefix: "codedex:rl",
+  prefix: "bulkpokescan:rl",
 });
 
 export function clientIp(request: Request): string {
