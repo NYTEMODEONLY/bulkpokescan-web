@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://bulkpokescan.vercel.app"><strong>🌐 bulkpokescan.vercel.app</strong></a>
+  <a href="https://bulkpokescan.app"><strong>🌐 bulkpokescan.app</strong></a>
    ·
   <a href="https://github.com/NYTEMODEONLY/bulkpokescan"><strong>💻 Desktop version</strong></a>
    ·
