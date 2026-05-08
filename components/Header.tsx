@@ -2,7 +2,7 @@
 
 import { useApp } from "@/lib/state";
 import { useTally } from "@/lib/useTally";
-import { Pokeball } from "@/components/Pokeball";
+import { CardQR } from "@/components/CardQR";
 import { EnergyStrip } from "@/components/EnergyStrip";
 
 const compactNumber = new Intl.NumberFormat("en-US", { notation: "compact" });
@@ -70,11 +70,11 @@ export function Header() {
       <div className="flex items-center gap-3">
         {/* Mobile: 32px */}
         <span className="lg:hidden">
-          <Pokeball size={32} />
+          <CardQR size={32} />
         </span>
         {/* Desktop: 42px */}
         <span className="hidden lg:inline-block">
-          <Pokeball size={42} />
+          <CardQR size={42} />
         </span>
 
         <div className="flex flex-col leading-none">

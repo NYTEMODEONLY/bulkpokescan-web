@@ -1,7 +1,7 @@
 "use client";
 
 import type { RefObject } from "react";
-import { Pokeball } from "@/components/Pokeball";
+import { CardQR } from "@/components/CardQR";
 
 interface CameraViewProps {
   cameraOn: boolean;
@@ -15,7 +15,7 @@ const RETICLE_INNER_RADIUS = 8; // px (inside corner curve)
 const RETICLE_SIZE = 28; // px length of each bracket arm
 
 /**
- * Viewfinder. Renders a <video> element when on; an empty-state Pokeball
+ * Viewfinder. Renders a <video> element when on; an empty-state brand-mark
  * watermark + headline + hint when off. Adds an animated cyan reticle
  * (4 corner brackets + center crosshair + scan-line sweep) over the live feed.
  *
@@ -89,7 +89,7 @@ export function CameraView({ cameraOn, videoRef, flashKey }: CameraViewProps) {
           className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-3 px-6 text-center"
           style={{ backgroundColor: "#050507" }}
         >
-          <Pokeball size={88} watermark />
+          <CardQR size={88} watermark />
           <h4 className="font-display text-[17px] font-semibold text-text">
             Camera Off
           </h4>

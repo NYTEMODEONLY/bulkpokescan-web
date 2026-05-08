@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Pokeball } from "./Pokeball";
+import { CardQR } from "./CardQR";
 
 interface LegalShellProps {
   title: string;
@@ -16,7 +16,7 @@ export function LegalShell({ title, lastUpdated, children }: LegalShellProps) {
           className="flex items-center gap-3 no-underline text-text hover:opacity-90 transition-opacity"
           aria-label="BulkPokeScan home"
         >
-          <Pokeball size={36} />
+          <CardQR size={36} />
           <div className="flex flex-col leading-none">
             <div className="flex items-baseline">
               <span className="font-display text-[20px] font-bold text-text">

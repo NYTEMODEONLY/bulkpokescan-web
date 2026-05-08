@@ -2,7 +2,7 @@
 
 import { useApp } from "@/lib/state";
 import { Modal, ModalHeader, ModalBody, ModalFooter } from "./Modal";
-import { Pokeball } from "@/components/Pokeball";
+import { CardQR } from "@/components/CardQR";
 
 const FEATURES = [
   "Ultra-fast continuous QR scanning",
@@ -40,7 +40,7 @@ export function AboutModal() {
         <div className="px-5 py-5">
           {/* Hero row */}
           <div className="flex items-center gap-4">
-            <Pokeball size={52} />
+            <CardQR size={52} />
             <div className="flex flex-col leading-tight">
               <div className="flex items-baseline">
                 <span className="font-display text-[22px] font-bold text-text">
